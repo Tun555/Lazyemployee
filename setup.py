@@ -12,15 +12,15 @@ DESCRIPTION = '\n\n'.join(LOAD_TEXT(_) for _ in [
 setup(
   name = 'lazyemployee',                # Name project the same with folder
   packages = ['lazyemployee'],          # Name project the same with folder
-  version = '0.0.1',                 # 
+  version = '0.0.2',                 # 
   license='MIT', 
   description = 'lazyemployee learning to upload to PyPI',    #Show on PyPi
   long_description=DESCRIPTION,
   author = 'Tun Kedsaro',            #          
   author_email = 'Tun.k@ku.th',      #
-  url = 'https://github.com/Tun555/zchool',  #
-  download_url = 'https://github.com/Tun555/zchool/archive/refs/tags/v0.0.2.zipp',                                      #  
-  keywords = ['OOP', 'zhcool'],      # When someone search
+  url = 'https://github.com/Tun555/Lazyemployee',  #
+  download_url = 'https://github.com/Tun555/Lazyemployee/archive/refs/tags/v0.0.2.zip',                                      #  
+  keywords = ['OOP','Employee'],      # When someone search
   install_requires=[                 # Package that use
         'numpy',
         'matplotlib',
